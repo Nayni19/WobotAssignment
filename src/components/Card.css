@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  width: auto;
+}
+.backdrop {
+  margin: 10px;
+  text-align: center;
+  width: 350px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+  border-radius: 15px;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.tagline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #212121;
+}
+.tagline1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #545454;
+}
+.details {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #545454;
+}
+.container {
+  padding: 0;
+  margin: 0%;
+}
+input,
+select {
+  font-family: "Roboto";
+  font-style: normal;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  height: 37px;
+  width: 100%;
+}
+.flex-detail {
+  display: flex;
+  flex-direction: row;
+  border: #212121;
+  justify-content: space-between;
+  align-items: center;
+}
+.comp-button {
+  padding: 8px 8px;
+  gap: 8px;
+  background: #f0f0f0;
+  border-radius: 2px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #545454;
+}
+
+.comp-button:hover {
+  background: #3766e8;
+  border-radius: 2px;
+  color: white;
+}
+.start-button {
+  margin-top: 40px;
+  background: #3766e8;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 40px;
+  border: none;
+  color: white;
+}
