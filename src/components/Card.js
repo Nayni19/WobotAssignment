@@ -24,9 +24,9 @@ function Card() {
             <h3 className="details">Industry</h3>
             <select name="Industry">
               <option defaultValue>Select</option>
-              <option>Grapefruit</option>
-              <option>Lime</option>
-              <option>Coconut</option>
+              <option>Pharmaceutical</option>
+              <option>Health</option>
+              <option>Food</option>
             </select>
           </div>
           <div className="container">
