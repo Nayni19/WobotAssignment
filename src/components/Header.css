@@ -1,0 +1,37 @@
+.header {
+    text-align: center;
+    height: 40px;
+    width: 53px;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .logo1 {
+    align-self: flex-end;
+    width: 11px;
+    height: 22px;
+    background: #3766e8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+  }
+  .logo2 {
+    width: 11px;
+    height: 42.37px;
+    background: #3766e8;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+  }
+  .logo3 {
+      align-self: flex-start;
+      width: 11px;
+      height: 28px;
+      background: #3766E8;
+      border-radius: 100px;
+      transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0)
+    }
+    
